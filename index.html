@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Coffee Shop</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="Author: Garshin K. V. The site of the online coffee store Coffee Shop">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20241114213641">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header header--setup">
+			<div class="header__content">
+
+				<div class="menu">
+
+					<div class="menu__block">
+
+						<nav class="menu__body">
+							<ul class="menu__list menu__list--up">
+								<li class="menu__item" data-da=".menu__list--down,1000,0" data-goto-header data-goto=".hero"><a href="#home" class="menu__link" id="home">Home</a></li>
+								<li class="menu__item" data-da=".menu__list--down,1000,1" data-goto-header data-goto=".our-history"><a href="#about" class="menu__link" id="about">About</a></li>
+								<li class="menu__item" data-da=".menu__list--down,1000,2" data-goto-header data-goto=".menu--setup"><a href="#menu" class="menu__link" id="menu">Menu</a></li>
+								<li class="menu__item" data-da=".menu__list--down,1000,3" data-goto-header data-goto=".reservation"><a href="#reservation" class="menu__link" id="reservation">Reservation</a></li>
+							</ul>
+						</nav>
+
+						<div class="menu__logo">
+							<div class="menu__inner-company-img">
+								<img src="img/items_svg/logo_company.svg" alt="Coffee Shop" class="menu__logo-pic" width="72" height="60">
+							</div>
+						</div>
+
+						<div class="menu__right-box">
+							<nav class="menu__body">
+								<ul class="menu__list menu__list--down">
+									<li class="menu__item" data-goto-header data-goto=".latest-news"><a href="#pages" class="menu__link" id="pages">Pages</a></li>
+									<li class="menu__item" data-goto-header data-goto=".popular"><a href="#shop" class="menu__link" id="shop">Shop</a></li>
+									<li class="menu__item" data-goto-header data-goto=".reservation"><a href="#contact" class="menu__link" id="contact">Contact</a></li>
+								</ul>
+							</nav>
+
+
+
+							<div class="menu__element">
+								<form class="menu__form-search" action="#" method="GET" enctype="multipart/form-data">
+									<div class="menu__group-items-form">
+										<input type="text" id="search-field" class="menu__form-item-input" name="field-search" placeholder="Search..." required autocomplete="off">
+										<button id="btn-search-field" type="button" class="menu__button-form">d</button>
+									</div>
+								</form>
+
+								<button id="btn-search" type="button" class="menu__btn-search">d</button>
+								<button id="bag-btn" type="button" class="menu__bag-btn">e</button>
+								<button type="button" class="menu__icon icon-menu" aria-label="Burger Menu"><span></span></button>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</header>
+		<main class="page">
+
+			<!-- todo HERO -->
+			<section class="hero hero--setup">
+				<div class="hero__container">
+
+					<div class="hero__box-video-img">
+						<div class="hero__intro">
+							<img src="img/hero.webp" alt="Image Preview" id="image-preview" class="hero__image-preview">
+						</div>
+
+						<div class="hero__intro-video">
+							<video src="files/preview_coffee.mp4" id="video-preview" muted loop class="hero__video-preview">
+							</video>
+						</div>
+					</div>
+
+					<div class="hero__pleasure pleasure">
+
+						<div class="pleasure__text-area">
+							<h1 class="pleasure__main-title-page">Enjoy Your Morning Coffee.</h1>
+							<div class="pleasure__desk">
+								<p>The coofee is brewed by fist roasting the green coffee beans over hot coals in brazier. given to Opportunity</p>
+							</div>
+						</div>
+
+						<div class="pleasure__buttons-management">
+							<button type="button" class="pleasure__test-coffee">Test Coffee</button>
+
+							<div class="pleasure__video-player video-player">
+								<div class="video-player__view-play">
+									<div id="play-video" class="video-player__box-double-items video-player__box-double-items--play">
+										<button type="button" class="video-player__item">c</button>
+										<div class="video-player__inscription">Play video</div>
+									</div>
+								</div>
+
+								<div class="video-player__view-stop">
+									<div id="stop" class="video-player__box-double-items video-player__box-double-items--stop">
+										<button type="button" class="video-player__item">f</button>
+										<div class="video-player__inscription">Stop</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+
+
+				</div>
+			</section>
+
+			<!-- todo CATEGORY -->
+			<div class="category category--setup" data-watch="navigator">
+				<div class="category__container">
+					<div class="category__body-cards">
+						<!-- * card #1 -->
+						<article class="category__card card">
+							<h2 class="card__name-coffee">Best Coffee Flavour</h2>
+							<div class="card__inner-layer">
+								<img src="img/products/best_coffee_flavour.webp" alt="Best Coffee Flavour" class="card__tump" width="366" height="420" loading="lazy">
+							</div>
+						</article>
+						<!-- * card #2 -->
+						<article class="category__card card">
+							<h2 class="card__name-coffee">Place to get lost</h2>
+							<div class="card__inner-layer">
+								<img src="img/products/place_to_get_lost.webp" alt="Place to get lost" class="card__tump" width="366" height="420" loading="lazy">
+							</div>
+						</article>
+						<!-- * card #3 -->
+						<article class="category__card card">
+							<h2 class="card__name-coffee">Place to get lost</h2>
+							<div class="card__inner-layer">
+								<img src="img/products/proper_roesting.webp" alt="Proper roesting" class="card__tump" width="366" height="420" loading="lazy">
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+
+			<!-- todo OUR HISTORY -->
+			<div class="our-history our-history--setup" data-watch="navigator">
+				<div class="our-history__container">
+					<div class="our-history__body item-box">
+
+						<!-- * Item #1 -->
+						<div class="item-box__wrap">
+							<img src="img/new_story/new_story_one.webp" alt="Cap of Coffee" class="item-box__image" width="298" height="302" loading="lazy">
+						</div>
+
+						<!-- * Item #2 -->
+						<div class="item-box__wrap">
+							<img src="img/new_story/new_story_two.webp" alt="Cap of Coffee" class="item-box__image" width="298" height="302" loading="lazy">
+						</div>
+
+						<!-- * Item #3 -->
+						<div class="item-box__wrap">
+							<img src="img/new_story/new_story_three.webp" alt="Cap of Coffee" class="item-box__image" width="298" height="635" loading="lazy">
+						</div>
+
+						<!-- * Item #4 -->
+						<div class="item-box__wrap">
+							<img src="img/new_story/new_story_three_.webp" alt="Cap of Coffee" class="item-box__image" width="635" height="298" loading="lazy">
+						</div>
+
+						<!-- * desk -->
+						<article class="item-box__description">
+							<div class="item-box__text-body">
+								<h2 class="item-box__main-caption">Create a new story with us</h2>
+								<h3 class="item-box__subcaption">Our history</h3>
+							</div>
+
+							<div class="item-box__paragraph">
+								<p>
+									mauris rhoncus in imperdiet placerat. vestibu emismd nisl suscirpit ligula volutpat, a feyguat urn maxmaus. cars massa nibhtincidunt. donec et nibh maximus, est eu, mattis nuce. preasent ut quam quis quam venen
+									atis fringilla. morbi vastibulum id tells mmodo mattis. aliauam erat volutpal.
+								</p>
+							</div>
+
+						</article>
+
+					</div>
+				</div>
+			</div>
+
+			<!-- todo POPULAR PRODUCT-->
+			<section class="popular popular--setup" data-watch="navigator">
+				<div class="popular__container">
+					<div class="group-titles group-titles--indent">
+						<h2 class="group-titles__main-title">Coffee popular Product</h2>
+						<h3 class="group-titles__subtitle">Popular Product</h3>
+					</div>
+
+					<div class="popular__body-cards product">
+
+						<div class="product__cards-set">
+							<!-- *Item #1 -->
+							<article class="product__cell">
+								<a href="#" class="product__case">
+									<img src="img/popular_product/mockup_one.webp" alt="Popular Coffee" class="product__pic" width="270" height="343" loading="lazy">
+								</a>
+								<div class="product__holder">
+									<div class="product__caption-rating">coffee<div data-rating="" data-rating-value="4.4" class="rating"></div>
+									</div>
+									<div class="product__property">
+										<h3 class="product__subcaption">
+											brazil coffee
+										</h3>
+										<div class="product__subject">Price - <strong class="product__price">$320.00</strong> / $358</div>
+									</div>
+								</div>
+								<button type="button" class="product__add-cart">Add to cart</button>
+							</article>
+							<!-- *Item #2 -->
+							<article class="product__cell">
+								<a href="#" class="product__case">
+									<img src="img/popular_product/mockup_one.webp" alt="Popular Coffee" class="product__pic" width="270" height="343" loading="lazy">
+								</a>
+								<div class="product__holder">
+									<div class="product__caption-rating">coffee<div data-rating="" data-rating-value="3.7" class="rating"></div>
+									</div>
+									<div class="product__property">
+										<h3 class="product__subcaption">
+											brazil coffee gred
+										</h3>
+										<div class="product__subject">Price - <strong class="product__price">$320.00</strong> / $358</div>
+									</div>
+								</div>
+								<button type="button" class="product__add-cart">Add to cart</button>
+							</article>
+							<!-- *Item #3 -->
+							<article class="product__cell">
+								<a href="#" class="product__case">
+									<img src="img/popular_product/mockup_one.webp" alt="Popular Coffee" class="product__pic" width="270" height="343" loading="lazy">
+								</a>
+								<div class="product__holder">
+									<div class="product__caption-rating">coffee<div data-rating="" data-rating-value="3" class="rating"></div>
+									</div>
+									<div class="product__property">
+										<h3 class="product__subcaption">
+											brazil coffee gred
+										</h3>
+										<div class="product__subject">Price - <strong class="product__price">$320.00</strong> / $358</div>
+									</div>
+								</div>
+								<button type="button" class="product__add-cart">Add to cart</button>
+							</article>
+							<!-- *Item #4 -->
+							<article class="product__cell">
+								<a href="#" class="product__case">
+									<img src="img/popular_product/mockup_one.webp" alt="Popular Coffee" class="product__pic" width="270" height="343" loading="lazy">
+								</a>
+								<div class="product__holder">
+									<div class="product__caption-rating">coffee<div data-rating="" data-rating-value="5" class="rating"></div>
+									</div>
+									<div class="product__property">
+										<h3 class="product__subcaption">
+											brazil coffee gred
+										</h3>
+										<div class="product__subject">Price - <strong class="product__price">$320.00</strong> / $358</div>
+									</div>
+								</div>
+								<button type="button" class="product__add-cart">Add to cart</button>
+							</article>
+							<!-- *Item #5 -->
+							<article class="product__cell">
+								<a href="#" class="product__case">
+									<img src="img/popular_product/mockup_one.webp" alt="Popular Coffee" class="product__pic" width="270" height="343" loading="lazy">
+								</a>
+								<div class="product__holder">
+									<div class="product__caption-rating">coffee<div data-rating="" data-rating-value="4.1" class="rating"></div>
+									</div>
+									<div class="product__property">
+										<h3 class="product__subcaption">
+											brazil coffee gred
+										</h3>
+										<div class="product__subject">Price - <strong class="product__price">$320.00</strong> / $358</div>
+									</div>
+								</div>
+								<button type="button" class="product__add-cart">Add to cart</button>
+							</article>
+							<!-- *Item #6 -->
+							<article class="product__cell">
+								<a href="#" class="product__case">
+									<img src="img/popular_product/mockup_one.webp" alt="Popular Coffee" class="product__pic" width="270" height="343" loading="lazy">
+								</a>
+								<div class="product__holder">
+									<div class="product__caption-rating">coffee<div data-rating="" data-rating-value="4.8" class="rating"></div>
+									</div>
+									<div class="product__property">
+										<h3 class="product__subcaption">
+											brazil coffee gred
+										</h3>
+										<div class="product__subject">Price - <strong class="product__price">$320.00</strong> / $358</div>
+									</div>
+								</div>
+								<button type="button" class="product__add-cart">Add to cart</button>
+							</article>
+							<!-- *Item #7 -->
+							<article class="product__cell">
+								<a href="#" class="product__case">
+									<img src="img/popular_product/mockup_one.webp" alt="Popular Coffee" class="product__pic" width="270" height="343" loading="lazy">
+								</a>
+								<div class="product__holder">
+									<div class="product__caption-rating">coffee<div data-rating="" data-rating-value="5" class="rating"></div>
+									</div>
+									<div class="product__property">
+										<h3 class="product__subcaption">
+											brazil coffee gred
+										</h3>
+										<div class="product__subject">Price - <strong class="product__price">$320.00</strong> / $358</div>
+									</div>
+								</div>
+								<button type="button" class="product__add-cart">Add to cart</button>
+							</article>
+							<!-- *Item #8 -->
+							<article class="product__cell">
+								<a href="#" class="product__case">
+									<img src="img/popular_product/mockup_one.webp" alt="Popular Coffee" class="product__pic" width="270" height="343" loading="lazy">
+								</a>
+								<div class="product__holder">
+									<div class="product__caption-rating">coffee<div data-rating="" data-rating-value="3.8" class="rating"></div>
+									</div>
+									<div class="product__property">
+										<h3 class="product__subcaption">
+											brazil coffee gred
+										</h3>
+										<div class="product__subject">Price - <strong class="product__price">$320.00</strong> / $358</div>
+									</div>
+								</div>
+								<button type="button" class="product__add-cart">Add to cart</button>
+							</article>
+							<!-- *Item #9 -->
+							<article class="product__cell">
+								<a href="#" class="product__case">
+									<img src="img/popular_product/mockup_one.webp" alt="Popular Coffee" class="product__pic" width="270" height="343" loading="lazy">
+								</a>
+								<div class="product__holder">
+									<div class="product__caption-rating">coffee<div data-rating="" data-rating-value="3.2" class="rating"></div>
+									</div>
+									<div class="product__property">
+										<h3 class="product__subcaption">
+											brazil coffee gred
+										</h3>
+										<div class="product__subject">Price - <strong class="product__price">$320.00</strong> / $358</div>
+									</div>
+								</div>
+								<button type="button" class="product__add-cart">Add to cart</button>
+							</article>
+						</div>
+
+						<!-- *Item-Button -->
+						<div class="product__btn-inner">
+							<button type="button" class="product__show-more" aria-label="Button Show More/
+			Esconder"></button>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<!-- todo COFFEEMACHINE -->
+			<div class="coffee-machine coffee-machine--setup" data-watch="navigator">
+				<div class="coffee-machine__container">
+
+					<div class="coffee-machine__carcase">
+						<div class="coffee-machine__machine-inner">
+							<img src="img/coffemachine.webp" alt="Coffe Machine" class="coffee-machine__poster" width="226" height="359" loading="lazy">
+						</div>
+
+						<article class="coffee-machine__envelope-block">
+							<h2 class="coffee-machine__section-caption">Coffee machine, buy for home</h2>
+							<div class="coffee-machine__indents">
+								mauris rhoncus in imperdiet placerat. vestibu emismd nisl suscirpit ligula
+								volutpat, a feyguat urn maxmaus. cars massa nibhtincidunt. donec et nib
+								maximus, est eu, mattis nuce. preasent ut quam quis quam venen atis fri
+								ngilla. morbi vastibulum id tells mmodo mattis. aliauam erat volutpal.
+							</div>
+							<button type="button" class="coffee-machine__discover-now">Discover Now</button>
+						</article>
+					</div>
+				</div>
+			</div>
+
+			<!-- todo POPULAR MENU-->
+			<section class="menu menu--setup" data-watch="navigator">
+				<div class="menu__container">
+					<div class="group-titles group-titles--popular-menu">
+						<h2 class="group-titles__main-title">Coffee popular menu</h2>
+						<h3 class="group-titles__subtitle">Menu</h3>
+					</div>
+
+					<div class="menu__body-list body-item">
+
+						<!-- * Item #1 -->
+						<article class="body-item__cell-product row-item">
+
+							<a href="#" class="row-item__link-coffee">
+
+								<div class="row-item__case-img">
+									<img src="img/popular_menu/item_menu_one.webp" alt="Americano rosted gred" class="row-item__pic" width="72" height="72" loading="lazy">
+								</div>
+								<div class="row-item__desk-coffee-menu">
+									<h3 class="row-item__name-coffee">Americano rosted gred</h3>
+									<div class="row-item__coffee-price">$12.00</div>
+								</div>
+							</a>
+						</article>
+
+						<!-- * Item #2 -->
+						<article class="body-item__cell-product row-item">
+							<a href="#" class="row-item__link-coffee">
+								<div class="row-item__case-img">
+									<img src="img/popular_menu/item_menu_one_three.webp" alt="Americano rosted gred" class="row-item__pic" width="72" height="72" loading="lazy">
+								</div>
+								<div class="row-item__desk-coffee-menu">
+									<h3 class="row-item__name-coffee">Americano rosted gred</h3>
+									<div class="row-item__coffee-price">$12.00</div>
+								</div>
+							</a>
+						</article>
+
+						<!-- * Item #3 -->
+						<article class="body-item__cell-product row-item">
+							<a href="#" class="row-item__link-coffee">
+								<div class="row-item__case-img">
+									<img src="img/popular_menu/item_menu_one_two.webp" alt="Americano rosted gred" class="row-item__pic" width="72" height="72" loading="lazy">
+								</div>
+								<div class="row-item__desk-coffee-menu">
+									<h3 class="row-item__name-coffee">Americano rosted gred</h3>
+									<div class="row-item__coffee-price">$12.00</div>
+								</div>
+							</a>
+						</article>
+
+						<!-- * Item #4 -->
+						<article class="body-item__cell-product row-item">
+							<a href="#" class="row-item__link-coffee">
+								<div class="row-item__case-img">
+									<img src="img/popular_menu/item_menu_one_four.webp" alt="Americano rosted gred" class="row-item__pic" width="72" height="72" loading="lazy">
+								</div>
+								<div class="row-item__desk-coffee-menu">
+									<h3 class="row-item__name-coffee">Americano rosted gred</h3>
+									<div class="row-item__coffee-price">$12.00</div>
+								</div>
+							</a>
+						</article>
+
+						<!-- * Item #5 -->
+						<article class="body-item__cell-product row-item">
+							<a href="#" class="row-item__link-coffee">
+								<div class="row-item__case-img">
+									<img src="img/popular_menu/item_menu_one_six.webp" alt="Americano rosted gred" class="row-item__pic" width="72" height="72" loading="lazy">
+								</div>
+								<div class="row-item__desk-coffee-menu">
+									<h3 class="row-item__name-coffee">Americano rosted gred</h3>
+									<div class="row-item__coffee-price">$12.00</div>
+								</div>
+							</a>
+						</article>
+
+						<!-- * Item #6 -->
+						<article class="body-item__cell-product row-item">
+							<a href="#" class="row-item__link-coffee">
+								<div class="row-item__case-img">
+									<img src="img/popular_menu/item_menu_one.webp" alt="Americano rosted gred" class="row-item__pic" width="72" height="72" loading="lazy">
+								</div>
+								<div class="row-item__desk-coffee-menu">
+									<h3 class="row-item__name-coffee">Americano rosted gred</h3>
+									<div class="row-item__coffee-price">$12.00</div>
+								</div>
+							</a>
+						</article>
+
+						<!-- * Item #7 -->
+						<article class="body-item__cell-product row-item">
+							<a href="#" class="row-item__link-coffee">
+								<div class="row-item__case-img">
+									<img src="img/popular_menu/item_menu_one_three.webp" alt="Americano rosted gred" class="row-item__pic" width="72" height="72" loading="lazy">
+								</div>
+								<div class="row-item__desk-coffee-menu">
+									<h3 class="row-item__name-coffee">Americano rosted gred</h3>
+									<div class="row-item__coffee-price">$12.00</div>
+								</div>
+							</a>
+						</article>
+
+						<!-- * Item #8 -->
+						<article class="body-item__cell-product row-item">
+							<a href="#" class="row-item__link-coffee">
+								<div class="row-item__case-img">
+									<img src="img/popular_menu/item_menu_one_two.webp" alt="Americano rosted gred" class="row-item__pic" width="72" height="72" loading="lazy">
+								</div>
+								<div class="row-item__desk-coffee-menu">
+									<h3 class="row-item__name-coffee">Americano rosted gred</h3>
+									<div class="row-item__coffee-price">$12.00</div>
+								</div>
+							</a>
+						</article>
+					</div>
+
+				</div>
+			</section>
+
+			<!-- todo POPULAR TESTIMONIAL-->
+			<section class="testimonial testimonial--setup">
+				<div class="testimonial__container">
+					<div class="group-titles group-titles--customer">
+						<h2 class="group-titles__main-title">Says our customers</h2>
+						<h3 class="group-titles__subtitle">Testimonial</h3>
+					</div>
+
+					<!-- $Оболонка слайдера -->
+					<div class="testimonial__slider swiper">
+						<!-- $Частина слайдера, що рухається -->
+						<div class="testimonial__wrapper swiper-wrapper">
+
+							<!-- $Слайд #1 -->
+							<div class="testimonial__slide swiper-slide">
+								<div class="testimonial__box-data user">
+
+									<div class="user__people-main-data">
+										<div class="user__box-photo">
+											<img src="img/customers/john_smith.webp" alt="John Smith" class="user__avatar" width="129" height="149">
+										</div>
+										<div class="user__personal-data">
+											<h3 class="user__full-name">John Smith</h3>
+											<div class="user__profession">Product Designer</div>
+										</div>
+									</div>
+
+									<div class="user__dop-data">
+										<div class="user__par">
+											<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore minima perspiciatis sequi. Ullam expedita quis molestiae repudiandae, omnis facere modi minima asperiores quae temporibus exercitationem nemo! Pariatur libero hic sapiente!.
+											</p>
+										</div>
+										<div data-rating="" data-rating-value="4.8" data-rating-title class="rating rating--user"></div>
+									</div>
+								</div>
+							</div>
+
+							<!-- $Слайд #2 -->
+							<div class="testimonial__slide swiper-slide">
+								<div class="testimonial__box-data user">
+
+									<div class="user__people-main-data">
+										<div class="user__box-photo">
+											<img src="img/customers/brett_lee.webp" alt="Brett Lee" class="user__avatar" width="129" height="149">
+										</div>
+										<div class="user__personal-data">
+											<h3 class="user__full-name">Brett Lee</h3>
+											<div class="user__profession">User Experience Designer</div>
+										</div>
+									</div>
+
+									<div class="user__dop-data">
+										<div class="user__par">
+											<p>
+												Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore minima perspiciatis sequi. Ullam expedita quis molestiae repudiandae, omnis facere modi minima asperiores quae temporibus exercitationem nemo! Pariatur libero hic sapiente!.
+											</p>
+										</div>
+										<div data-rating="" data-rating-value="4.5" data-rating-title class="rating rating--user"></div>
+									</div>
+								</div>
+							</div>
+
+							<!-- $Слайд #3 -->
+							<div class="testimonial__slide swiper-slide">
+								<div class="testimonial__box-data user">
+
+									<div class="user__people-main-data">
+										<div class="user__box-photo">
+											<img src="img/customers/anthony_freeman.webp" alt="Anthony Freeman" class="user__avatar" width="129" height="149">
+										</div>
+										<div class="user__personal-data">
+											<h3 class="user__full-name">Anthony Freeman</h3>
+											<div class="user__profession">Design engineer</div>
+										</div>
+									</div>
+
+									<div class="user__dop-data">
+										<div class="user__par">
+											<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore minima perspiciatis sequi. Ullam expedita quis molestiae repudiandae, omnis facere modi minima asperiores quae temporibus exercitationem nemo! Pariatur libero hic sapiente!.
+											</p>
+										</div>
+										<div data-rating="" data-rating-value="4.2" data-rating-title class="rating rating--user"></div>
+									</div>
+								</div>
+							</div>
+
+							<!-- $Слайд #4 -->
+							<div class="testimonial__slide swiper-slide">
+								<div class="testimonial__box-data user">
+
+									<div class="user__people-main-data">
+										<div class="user__box-photo">
+											<img src="img/customers/christine_berry.webp" alt="Christine Berry" class="user__avatar" width="129" height="149">
+										</div>
+										<div class="user__personal-data">
+											<h3 class="user__full-name">Christine Berry</h3>
+											<div class="user__profession">Doctor</div>
+										</div>
+									</div>
+
+									<div class="user__dop-data">
+										<div class="user__par">
+											<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore minima perspiciatis sequi. Ullam expedita quis molestiae repudiandae, omnis facere modi minima asperiores quae temporibus exercitationem nemo! Pariatur libero hic sapiente!.
+											</p>
+										</div>
+										<div data-rating="" data-rating-value="3" data-rating-title class="rating rating--user"></div>
+									</div>
+								</div>
+							</div>
+
+							<!-- $Слайд #5 -->
+							<div class="testimonial__slide swiper-slide">
+								<div class="testimonial__box-data user">
+
+									<div class="user__people-main-data">
+										<div class="user__box-photo">
+											<img src="img/customers/george_rogers.webp" alt="George Rogers" class="user__avatar" width="129" height="149">
+										</div>
+										<div class="user__personal-data">
+											<h3 class="user__full-name">George Rogers</h3>
+											<div class="user__profession">Programmer</div>
+										</div>
+									</div>
+
+									<div class="user__dop-data">
+										<div class="user__par">
+											<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore minima perspiciatis sequi. Ullam expedita quis molestiae repudiandae, omnis facere modi minima asperiores quae temporibus exercitationem nemo! Pariatur libero hic sapiente!.
+											</p>
+										</div>
+										<div data-rating="" data-rating-value="4" data-rating-title class="rating rating--user"></div>
+									</div>
+								</div>
+							</div>
+
+							<!-- $Слайд #6 -->
+							<div class="testimonial__slide swiper-slide">
+								<div class="testimonial__box-data user">
+
+									<div class="user__people-main-data">
+										<div class="user__box-photo">
+											<img src="img/customers/james_vasquez.webp" alt="James Vasquez" class="user__avatar" width="129" height="149">
+										</div>
+										<div class="user__personal-data">
+											<h3 class="user__full-name">James Vasquez</h3>
+											<div class="user__profession">Commercial director</div>
+										</div>
+									</div>
+
+									<div class="user__dop-data">
+										<div class="user__par">
+											<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore minima perspiciatis sequi. Ullam expedita quis molestiae repudiandae, omnis facere modi minima asperiores quae temporibus exercitationem nemo! Pariatur libero hic sapiente!.
+											</p>
+										</div>
+										<div data-rating="" data-rating-value="3.7" data-rating-title class="rating rating--user"></div>
+									</div>
+								</div>
+							</div>
+
+							<!-- $Слайд #7 -->
+							<div class="testimonial__slide swiper-slide">
+								<div class="testimonial__box-data user">
+
+									<div class="user__people-main-data">
+										<div class="user__box-photo">
+											<img src="img/customers/patricia_jones.webp" alt="Patricia Jones" class="user__avatar" width="129" height="149">
+										</div>
+										<div class="user__personal-data">
+											<h3 class="user__full-name">Patricia Jones</h3>
+											<div class="user__profession">TV journalist</div>
+										</div>
+									</div>
+
+									<div class="user__dop-data">
+										<div class="user__par">
+											<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore minima perspiciatis sequi. Ullam expedita quis molestiae repudiandae, omnis facere modi minima asperiores quae temporibus exercitationem nemo! Pariatur libero hic sapiente!.
+											</p>
+										</div>
+										<div data-rating="" data-rating-value="4.4" data-rating-title class="rating rating--user"></div>
+									</div>
+								</div>
+							</div>
+
+							<!-- $Слайд #8 -->
+							<div class="testimonial__slide swiper-slide">
+								<div class="testimonial__box-data user">
+
+									<div class="user__people-main-data">
+										<div class="user__box-photo">
+											<img src="img/customers/rose_scott.webp" alt="Rose Scott" class="user__avatar" width="129" height="149">
+										</div>
+										<div class="user__personal-data">
+											<h3 class="user__full-name">Rose Scott</h3>
+											<div class="user__profession">Bank manager</div>
+										</div>
+									</div>
+
+									<div class="user__dop-data">
+										<div class="user__par">
+											<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore minima perspiciatis sequi. Ullam expedita quis molestiae repudiandae, omnis facere modi minima asperiores quae temporibus exercitationem nemo! Pariatur libero hic sapiente!.
+											</p>
+										</div>
+										<div data-rating="" data-rating-value="5" data-rating-title class="rating rating--user"></div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonial__management-elm-group">
+
+							<div class="testimonial__pag-scroll-itms">
+								<!-- $Якщо потрібна пагінація -->
+								<div class="swiper-pagination"> </div>
+								<!-- $Якщо потрібен скролбар -->
+								<div class="swiper-scrollbar">
+									<div class="swiper-scrollbar-drag"></div>
+								</div>
+							</div>
+							<!-- $Якщо потрібна навігація (ліворуч/праворуч) -->
+							<div class="btn-grp-pagin">
+								<button type="button" class="btn-grp-pagin__swiper-button-prev">a</button>
+								<button type="button" class="btn-grp-pagin__swiper-button-next">a</button>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<!-- todo POPULAR RESERVATION-->
+			<section class="reservation reservation--setup" data-watch="navigator">
+				<div class="reservation__container">
+					<div class="reservation__group-itens-body">
+						<div class="group-titles  group-titles--table">
+							<h2 class="group-titles__main-title">Reservation</h2>
+							<h3 class="group-titles__subtitle">Booking a table</h3>
+						</div>
+						<form id="brown" class="brown" action="#" method="GET" enctype="multipart/form-data">
+							<div class="brown__shell-of-the-field-group">
+
+								<div id="field-person" class="brown__wrap-field">
+									<input id="person" type="text" class="brown__input" name="quantity" required autocomplete="off">
+									<label for="person" class="brown__label-for-input">Enter person</label>
+									<div class="brown__error-input-person">Enter the value in the compulsory field</div>
+								</div>
+
+								<div id="field-calendar" class="brown__wrap-field brown__wrap-field--date">
+									<input id="date" data-datepicker type="text" class="brown__input" name="date-table" required autocomplete="off">
+									<label for="date" class="brown__label-for-input">Enter date</label>
+									<div class="brown__error-input-date">The field cannot be empty. Select the date</div>
+								</div>
+
+								<div id="field-time" class="brown__wrap-field brown__wrap-field--time">
+									<input id="time" type="text" class="brown__input" name="time" required autocomplete="off">
+									<label for="date" class="brown__label-for-input">Enter time</label>
+									<div class="brown__error-input-time">The field cannot be empty. Select the time</div>
+
+									<div id="blockTimeTable" class="brown__time-picker">
+										<div id="groupSelectsTimeFields" class="brown__group-field-time">
+											<select id="hours" class="brown__time-setup-field brown__hour-chouse hour-list">
+												<option value="00" class="hour-list__choice-value">00</option>
+												<option value="01" class="hour-list__choice-value">01</option>
+												<option value="02" class="hour-list__choice-value">02</option>
+												<option value="03" class="hour-list__choice-value">03</option>
+												<option value="04" class="hour-list__choice-value">04</option>
+												<option value="05" class="hour-list__choice-value">05</option>
+												<option value="06" class="hour-list__choice-value">06</option>
+												<option value="07" class="hour-list__choice-value">07</option>
+												<option value="08" class="hour-list__choice-value">08</option>
+												<option value="09" class="hour-list__choice-value">09</option>
+												<option value="10" class="hour-list__choice-value">10</option>
+												<option value="11" class="hour-list__choice-value">11</option>
+												<option value="12" class="hour-list__choice-value">12</option>
+											</select> :
+											<select id="minutes" class="brown__time-setup-field brown__minutes-chouse minutes-list">
+												<option value="00" class="minutes-list__choice-value">00</option>
+												<option value="01" class="minutes-list__choice-value">01</option>
+												<option value="02" class="minutes-list__choice-value">02</option>
+												<option value="03" class="minutes-list__choice-value">03</option>
+												<option value="04" class="minutes-list__choice-value">04</option>
+												<option value="05" class="minutes-list__choice-value">05</option>
+												<option value="06" class="minutes-list__choice-value">06</option>
+												<option value="07" class="minutes-list__choice-value">07</option>
+												<option value="08" class="minutes-list__choice-value">08</option>
+												<option value="09" class="minutes-list__choice-value">09</option>
+												<option value="10" class="minutes-list__choice-value">10</option>
+												<option value="11" class="minutes-list__choice-value">11</option>
+												<option value="12" class="minutes-list__choice-value">12</option>
+												<option value="13" class="minutes-list__choice-value">13</option>
+												<option value="14" class="minutes-list__choice-value">14</option>
+												<option value="15" class="minutes-list__choice-value">15</option>
+												<option value="16" class="minutes-list__choice-value">16</option>
+												<option value="17" class="minutes-list__choice-value">17</option>
+												<option value="18" class="minutes-list__choice-value">18</option>
+												<option value="19" class="minutes-list__choice-value">19</option>
+												<option value="20" class="minutes-list__choice-value">20</option>
+												<option value="21" class="minutes-list__choice-value">21</option>
+												<option value="22" class="minutes-list__choice-value">22</option>
+												<option value="23" class="minutes-list__choice-value">23</option>
+												<option value="24" class="minutes-list__choice-value">24</option>
+												<option value="25" class="minutes-list__choice-value">25</option>
+												<option value="26" class="minutes-list__choice-value">26</option>
+												<option value="27" class="minutes-list__choice-value">27</option>
+												<option value="28" class="minutes-list__choice-value">28</option>
+												<option value="29" class="minutes-list__choice-value">29</option>
+												<option value="30" class="minutes-list__choice-value">30</option>
+												<option value="31" class="minutes-list__choice-value">31</option>
+												<option value="32" class="minutes-list__choice-value">32</option>
+												<option value="33" class="minutes-list__choice-value">33</option>
+												<option value="34" class="minutes-list__choice-value">34</option>
+												<option value="35" class="minutes-list__choice-value">35</option>
+												<option value="36" class="minutes-list__choice-value">36</option>
+												<option value="37" class="minutes-list__choice-value">37</option>
+												<option value="38" class="minutes-list__choice-value">38</option>
+												<option value="39" class="minutes-list__choice-value">39</option>
+												<option value="40" class="minutes-list__choice-value">40</option>
+												<option value="41" class="minutes-list__choice-value">41</option>
+												<option value="42" class="minutes-list__choice-value">42</option>
+												<option value="43" class="minutes-list__choice-value">43</option>
+												<option value="44" class="minutes-list__choice-value">44</option>
+												<option value="45" class="minutes-list__choice-value">45</option>
+												<option value="46" class="minutes-list__choice-value">46</option>
+												<option value="47" class="minutes-list__choice-value">47</option>
+												<option value="48" class="minutes-list__choice-value">48</option>
+												<option value="49" class="minutes-list__choice-value">49</option>
+												<option value="50" class="minutes-list__choice-value">50</option>
+												<option value="51" class="minutes-list__choice-value">51</option>
+												<option value="52" class="minutes-list__choice-value">52</option>
+												<option value="53" class="minutes-list__choice-value">53</option>
+												<option value="54" class="minutes-list__choice-value">54</option>
+												<option value="55" class="minutes-list__choice-value">55</option>
+												<option value="56" class="minutes-list__choice-value">56</option>
+												<option value="57" class="minutes-list__choice-value">57</option>
+												<option value="58" class="minutes-list__choice-value">58</option>
+												<option value="59" class="minutes-list__choice-value">59</option>
+											</select>
+											<select id="ampm" class="brown__time-setup-field brown__ampm ampm-list">
+												<option value="AM" class="ampm-list__choice-item-option">AM</option>
+												<option value="PM" class="ampm-list__choice-item-option">PM</option>
+											</select>
+										</div>
+
+										<div class="brown__buttons-set-time button-time">
+											<button id="setTimeBtn" class="button-time__item-choice button-time__item-choice--apply">Apply</button>
+											<button id="cancelTimeBtn" class="button-time__item-choice button-time__item-choice--cancel">Cancel</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<button id="brown__book-a-table" type="submit" class="brown__book-table">book a table</button>
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<!-- todo POPULAR LATEST NEWS-->
+			<section class="latest-news latest-news--setup" data-watch="navigator">
+				<div class="latest-news__container">
+					<div class="group-titles group-titles--news">
+						<h2 class="group-titles__main-title">Our latest news</h2>
+						<h3 class="group-titles__subtitle">News</h3>
+					</div>
+
+					<div class="latest-news__group-product-card сards-products">
+
+						<!-- * product #1 -->
+						<article class="сards-products__product-cover product-cover">
+							<div class="product-cover__box-thumb">
+								<img src="img/latest_news/news_one.webp" alt="Ideal cocktails" class="product-cover__img-elem" width="366" height="360" loading="lazy">
+							</div>
+
+							<div class="product-cover__box-desk-coffee">
+								<div class="product-cover__publication">
+									<div class="product-cover__author"><strong class="product-cover__by">By:</strong> rasaline</div>
+									<div class="product-cover__date">23.01.2021</div>
+								</div>
+								<h3 class="product-cover__title-article">Ideal cocktails from barmens in famous restaurants around the world</h3>
+								<a href="#" target="_blank" class="product-cover__link-read-more">Read More</a>
+							</div>
+						</article>
+
+						<!-- * product #2 -->
+						<article class="сards-products__product-cover product-cover">
+							<div class="product-cover__box-thumb">
+								<img src="img/latest_news/news_two.webp" alt="Ideal cocktails" class="product-cover__img-elem" width="366" height="360" loading="lazy">
+							</div>
+
+							<div class="product-cover__box-desk-coffee">
+								<div class="product-cover__publication">
+									<div class="product-cover__author"><strong class="product-cover__by">By:</strong> rasaline</div>
+									<div class="product-cover__date">23.01.2021</div>
+								</div>
+								<h3 class="product-cover__title-article">Ideal cocktails from barmens in famous restaurants around the world</h3>
+								<a href="#" target="_blank" class="product-cover__link-read-more">Read More</a>
+							</div>
+						</article>
+
+						<!-- * product #3 -->
+						<article class="сards-products__product-cover product-cover">
+							<div class="product-cover__box-thumb">
+								<img src="img/latest_news/news_three.webp" alt="Ideal cocktails" class="product-cover__img-elem" width="366" height="360" loading="lazy">
+							</div>
+
+							<div class="product-cover__box-desk-coffee">
+								<div class="product-cover__publication">
+									<div class="product-cover__author"><strong class="product-cover__by">By:</strong> rasaline</div>
+									<div class="product-cover__date">23.01.2021</div>
+								</div>
+								<h3 class="product-cover__title-article">Ideal cocktails from barmens in famous restaurants around the world</h3>
+								<a href="#" target="_blank" class="product-cover__link-read-more">Read More</a>
+							</div>
+						</article>
+
+					</div>
+
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__content">
+
+				<div class="menu-footer">
+
+					<div class="menu-footer__block">
+
+						<div class="menu-footer__inner-logo">
+							<img src="img/items_svg/logo_company.svg" alt="" class="menu-footer__logo-pic" width="72" height="60" loading="lazy">
+						</div>
+
+						<nav class="menu-footer__body">
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item"><a href="#home" class="menu-footer__link" id="home-footer" data-goto-header data-goto=".hero">Home</a></li>
+
+								<li class="menu-footer__item" data-goto-header data-goto=".reservation"><a href="#reservation" class="menu-footer__link" id="reservation-footer">Rerervation</a></li>
+
+								<li class="menu-footer__item" data-goto-header data-goto=".menu--setup"><a href="#menu" class="menu-footer__link" id="menu-footer">Menu</a></li>
+
+								<li class="menu-footer__item"><a href="#about" class="menu-footer__link" id="about-footer" data-goto-header data-goto=".our-history">About</a></li>
+
+								<li class="menu-footer__item" data-goto-header data-goto=".latest-news"><a href="#pages" class="menu-footer__link" id="pages-footer">Pages</a></li>
+
+								<li class="menu-footer__item" data-goto-header data-goto=".popular"><a href="#shop" class="menu-footer__link" id="shop-footer">Shop</a></li>
+
+								<li class="menu-footer__item" data-goto-header data-goto=".latest-news"><a href="#blogs" class="menu-footer__link" id="blogs-footer">Blogs</a></li>
+							</ul>
+						</nav>
+
+						<form class="menu-footer__form-mail" action="#" method="GET" enctype="multipart/form-data">
+							<div class="menu-footer__boxmain">
+								<div class="menu-footer__input-wrap-item">
+									<input type="email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,8}$" id="user-email-input" class="menu-footer__user-email-input" name="user-email" placeholder="Enter your email" required autocomplete="off">
+									<div class="menu-footer__error menu-footer__error--one">Enter your email address</div>
+									<div class="menu-footer__error menu-footer__error--two">The email address you entered is incorrect</div>
+								</div>
+
+							</div>
+
+							<button id="btn-mail-send" type="submit" class="menu-footer__btn-mail-send">b</button>
+						</form>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="footer__down-level">
+				<div class="footer__coopyright">
+					E-Tennis &copy; 2021. All rights reserved.
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20241114213641"></script>
+</body>
+
+</html>
