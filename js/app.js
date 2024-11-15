@@ -4623,23 +4623,6 @@
         }
         const da = new DynamicAdapt("max");
         da.init();
-        window.onload = () => {
-            const currentHash = location.hash || "#home";
-            const menuLinks = document.querySelectorAll(".menu__link, .menu-footer__link");
-            if (menuLinks.length) menuLinks.forEach((menuLink => {
-                if (menuLink.getAttribute("href") === currentHash) if (menuLink.classList.contains("menu__link")) menuLink.classList.add("_active-page"); else if (menuLink.classList.contains("menu-footer__link")) menuLink.classList.add("_active-footer");
-            }));
-        };
-        window.addEventListener("hashchange", (() => {
-            const currentHash = location.hash || "#home";
-            const menuLinks = document.querySelectorAll(".menu__link, .menu-footer__link");
-            menuLinks.forEach((menuLink => {
-                menuLink.classList.remove("_active-page", "_active-footer");
-            }));
-            menuLinks.forEach((menuLink => {
-                if (menuLink.getAttribute("href") === currentHash) if (menuLink.classList.contains("menu__link")) menuLink.classList.add("_active-page"); else if (menuLink.classList.contains("menu-footer__link")) menuLink.classList.add("_active-footer");
-            }));
-        }));
         document.addEventListener("DOMContentLoaded", (function() {
             const emailInput = document.getElementById("user-email-input");
             const btnMailSend = document.getElementById("btn-mail-send");
