@@ -4894,7 +4894,7 @@
         document.addEventListener("DOMContentLoaded", (function() {
             const playButton = document.getElementById("play-video");
             const stopButton = document.getElementById("stop");
-            const heroIntro = document.querySelector(".hero__intro");
+            const heroIntro = document.querySelector(".hero__image-preview");
             const heroIntroVideo = document.querySelector(".hero__intro-video");
             const video = document.getElementById("video-preview");
             const stopButtonContainer = document.querySelector(".video-player__view-stop");
